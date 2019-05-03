@@ -34,7 +34,7 @@ const beginHeader = styled.div`
       letter-spacing: 1px;
     }
   `
-    const headerDate = styled,span`
+    const headerDate = styled.span`
       margin-left: 25px;
       flex: 1;
     `
