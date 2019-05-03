@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 // Refactor this component to use styled components and not classNames. 
 // You can find the corresponding CSS in the CSS/index.css file
 
@@ -14,7 +14,6 @@ position:fixed;
 height:44px;
 background-color: #333;
 `;
-
 const TBContainer= styled.div`
  width: 100%;
   display: flex;
