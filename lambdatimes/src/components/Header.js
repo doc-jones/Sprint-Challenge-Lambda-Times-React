@@ -33,16 +33,16 @@ const beginHeader = styled.div`
       font-weight: bold;
       letter-spacing: 1px;
     }
-  `
+  `;
     const headerDate = styled.span`
       margin-left: 25px;
       flex: 1;
-    `
+    `;
     const headerTemp = styled.span`
       text-align: right;
       margin-right: 25px;
       flex: 1;
-  `
+  `;
 
 
 
