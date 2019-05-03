@@ -46,14 +46,14 @@ const beginHeader = styled.div`
 
 
 
-const Header = () => {
-  return (
-    <div>
-      <span>SMARCH 32, 2018</span>
-      <h1>Lambda Times</h1>
-      <span>98°</span>
-    </div>
-  )
-}
+  const Header = () => {
+    return (
+      <beginHeader>
+        <headerDate>SMARCH 32, 2018</headerDate>
+        <h1>Lambda Times</h1>
+        <headerTemp>98°</headerTemp>
+      </beginHeader>
+    )
+  }
 
 export default Header;
